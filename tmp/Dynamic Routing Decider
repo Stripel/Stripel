@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T02:56:02.304Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="15.6.3" etag="4-MRWsXbUaSGWxFqN4hh" type="github"><diagram id="jc3OBM19iUJOjxDGYTBY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-01T03:24:50.328Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="I8knuVpX0mTs6THp6zPe" version="15.6.3" type="github">
+  <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
+    <mxGraphModel dx="2817" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gXM4ETL81tYky5vnv4Cg-1" value="考虑交通锥的变道" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gXM4ETL81tYky5vnv4Cg-2" value="Dynamic Routing Decider" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gXM4ETL81tYky5vnv4Cg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gXM4ETL81tYky5vnv4Cg-3" target="gXM4ETL81tYky5vnv4Cg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gXM4ETL81tYky5vnv4Cg-3" value="20211101_Dyanmic_Routing_No_Trigger_01" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="185" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gXM4ETL81tYky5vnv4Cg-5" value="当前车道前方状况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gXM4ETL81tYky5vnv4Cg-6" value="左车道车流状况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gXM4ETL81tYky5vnv4Cg-7" value="右车道车流状况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gXM4ETL81tYky5vnv4Cg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gXM4ETL81tYky5vnv4Cg-9" target="gXM4ETL81tYky5vnv4Cg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gXM4ETL81tYky5vnv4Cg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gXM4ETL81tYky5vnv4Cg-9" target="gXM4ETL81tYky5vnv4Cg-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-10" y="275" />
+              <mxPoint x="-10" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gXM4ETL81tYky5vnv4Cg-9" value="20211101_Dyanmic_Routing_No_Trigger_02" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="260" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gXM4ETL81tYky5vnv4Cg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="gXM4ETL81tYky5vnv4Cg-12" target="gXM4ETL81tYky5vnv4Cg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gXM4ETL81tYky5vnv4Cg-12" value="20211101_DR_FP_01" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="335" width="290" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
