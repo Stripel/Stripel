@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T06:46:18.887Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="6icFA7WLcfupds9wUjCB" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T07:40:03.002Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="JiDWuTvaaXdZlQwIWmDC" version="15.6.6" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
             <mxPoint x="340" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gXM4ETL81tYky5vnv4Cg-15" value="考虑Solid Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gXM4ETL81tYky5vnv4Cg-15" value="Solid Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="85" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gXM4ETL81tYky5vnv4Cg-17" value="检查当前道路左边界" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -68,7 +68,7 @@
           <mxGeometry x="-450" y="495" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-2" value="当前遇到的问题" style="swimlane;fontColor=default;fillColor=default;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-750" y="610" width="1060" height="640" as="geometry" />
+          <mxGeometry x="-720" y="1060" width="1060" height="640" as="geometry" />
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-3" value="ADC静止" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="A2jvRu5w4PexVcgmQUEC-2">
           <mxGeometry x="500" y="60" width="120" height="60" as="geometry" />
@@ -81,22 +81,28 @@
             <mxPoint x="277" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A2jvRu5w4PexVcgmQUEC-8" value="ADC被前方的运动的三轮车阻碍" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="A2jvRu5w4PexVcgmQUEC-2">
-          <mxGeometry x="30" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="A2jvRu5w4PexVcgmQUEC-2" source="A2jvRu5w4PexVcgmQUEC-4" target="A2jvRu5w4PexVcgmQUEC-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-9" value="未触发" style="swimlane;horizontal=0;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="A2jvRu5w4PexVcgmQUEC-2">
-          <mxGeometry y="200" width="1060" height="100" as="geometry" />
+          <mxGeometry y="190" width="1060" height="140" as="geometry" />
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-6" value="ADC被前方的行人/非机动车阻挡" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="A2jvRu5w4PexVcgmQUEC-9">
           <mxGeometry x="490" y="20" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="A2jvRu5w4PexVcgmQUEC-8" value="ADC被前方的运动的三轮车阻碍" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="A2jvRu5w4PexVcgmQUEC-9">
+          <mxGeometry x="30" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-18" value="误触发" style="swimlane;horizontal=0;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="A2jvRu5w4PexVcgmQUEC-2">
           <mxGeometry y="390" width="640" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="A2jvRu5w4PexVcgmQUEC-21" value="&lt;div style=&quot;text-align: left&quot;&gt;perception/prediction预测Obstacles&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="85" y="570" width="205" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2jvRu5w4PexVcgmQUEC-24" value="考虑Solid Line" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="85" y="680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
