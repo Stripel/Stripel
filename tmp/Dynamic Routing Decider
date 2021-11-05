@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T11:22:37.571Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="aiozQJt-qAKmwfEmaC3-" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T02:40:21.122Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="qvx5kK-ld73UEdxnCy1w" version="15.6.6" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,6 +12,9 @@
         </mxCell>
         <mxCell id="gXM4ETL81tYky5vnv4Cg-3" value="20211101_Dyanmic_Routing_No_Trigger_01" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-670" y="185" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A2jvRu5w4PexVcgmQUEC-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="gXM4ETL81tYky5vnv4Cg-5" target="A2jvRu5w4PexVcgmQUEC-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gXM4ETL81tYky5vnv4Cg-5" value="当前车道前方状况" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-135" y="245" width="120" height="60" as="geometry" />
@@ -113,7 +116,7 @@
             <mxPoint x="390" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A2jvRu5w4PexVcgmQUEC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2jvRu5w4PexVcgmQUEC-21" target="A2jvRu5w4PexVcgmQUEC-34">
+        <mxCell id="A2jvRu5w4PexVcgmQUEC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2jvRu5w4PexVcgmQUEC-21" target="A2jvRu5w4PexVcgmQUEC-34">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="360" as="targetPoint" />
           </mxGeometry>
@@ -149,11 +152,11 @@
         <mxCell id="A2jvRu5w4PexVcgmQUEC-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="A2jvRu5w4PexVcgmQUEC-34" target="A2jvRu5w4PexVcgmQUEC-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A2jvRu5w4PexVcgmQUEC-34" value="车辆轨迹" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="410" y="300" width="60" height="20" as="geometry" />
+        <mxCell id="A2jvRu5w4PexVcgmQUEC-34" value="车辆轨迹" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="390" y="357.5" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="A2jvRu5w4PexVcgmQUEC-42" value="车辆轨迹有多个，无法知道具体哪个" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="510" y="275" width="60" height="70" as="geometry" />
+        <mxCell id="A2jvRu5w4PexVcgmQUEC-42" value="车辆轨迹有多个，无法知道具体哪个" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="490" y="335" width="100" height="65" as="geometry" />
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2jvRu5w4PexVcgmQUEC-44" target="A2jvRu5w4PexVcgmQUEC-48">
           <mxGeometry relative="1" as="geometry">
@@ -169,16 +172,23 @@
         <mxCell id="A2jvRu5w4PexVcgmQUEC-45" value="20211104_DR_No_Trigger_01" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-670" y="645" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="A2jvRu5w4PexVcgmQUEC-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="A2jvRu5w4PexVcgmQUEC-48" target="A2jvRu5w4PexVcgmQUEC-50">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="660" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="A2jvRu5w4PexVcgmQUEC-48" value="不知道为什么未触发，建议查一下" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="A2jvRu5w4PexVcgmQUEC-48" value="DR状态一直为CLEAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="140" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A2jvRu5w4PexVcgmQUEC-50" value="没进DR？？？？？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="310" y="640" width="170" height="40" as="geometry" />
+        <mxCell id="A2jvRu5w4PexVcgmQUEC-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="A2jvRu5w4PexVcgmQUEC-51" target="A2jvRu5w4PexVcgmQUEC-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2jvRu5w4PexVcgmQUEC-51" value="前方静止机动车，有变道空间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="140" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A2jvRu5w4PexVcgmQUEC-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="A2jvRu5w4PexVcgmQUEC-53" target="A2jvRu5w4PexVcgmQUEC-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A2jvRu5w4PexVcgmQUEC-53" value="ReRouting_Status一直为CLEAR状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A2jvRu5w4PexVcgmQUEC-55" value="DR的道路状态检查并不可靠" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="510" y="200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
