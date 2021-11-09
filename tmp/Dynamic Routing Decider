@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T03:10:15.854Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="UoR6sMFr3OD2rBVVrd-O" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T09:07:11.897Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="v4U6CNIDaRg4HlM4-_Mc" version="15.6.8" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -264,7 +264,16 @@
           <mxGeometry x="340" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oMsIglp60gxyCfcpelrI-26" value="多次连续Lane change" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-135" y="780" width="120" height="60" as="geometry" />
+          <mxGeometry x="-135" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oMsIglp60gxyCfcpelrI-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oMsIglp60gxyCfcpelrI-28" target="oMsIglp60gxyCfcpelrI-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMsIglp60gxyCfcpelrI-28" value="前方有静态障碍物" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oMsIglp60gxyCfcpelrI-29" value="替换不做DR,改为改submap,做lane change" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="140" y="850" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
