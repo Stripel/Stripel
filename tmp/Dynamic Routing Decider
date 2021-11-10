@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T09:25:33.477Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="b4xeoVud84tH4sZDwDth" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T09:30:13.848Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="HtonvwnK2trmXr54-x6D" version="15.6.8" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -189,7 +189,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-21" value="&lt;div style=&quot;text-align: left&quot;&gt;perception/prediction预测Obstacles&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="130" y="360" width="205" height="70" as="geometry" />
+          <mxGeometry x="141" y="360.5" width="205" height="70" as="geometry" />
         </mxCell>
         <mxCell id="oMsIglp60gxyCfcpelrI-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="A2jvRu5w4PexVcgmQUEC-24" target="oMsIglp60gxyCfcpelrI-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -242,7 +242,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-51" value="前方静止机动车，有变道空间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="140" y="245" width="120" height="60" as="geometry" />
+          <mxGeometry x="141" y="245" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" parent="1" source="A2jvRu5w4PexVcgmQUEC-53" target="A2jvRu5w4PexVcgmQUEC-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -311,6 +311,29 @@
             <mxPoint x="-250" y="1950" as="sourcePoint" />
             <mxPoint x="-250" y="1240" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iyvyuI26L8jkHn6HIsIB-15" target="iyvyuI26L8jkHn6HIsIB-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-15" value="Merge Lane 上无法触发" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="iyvyuI26L8jkHn6HIsIB-16" target="iyvyuI26L8jkHn6HIsIB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-16" value="&lt;span style=&quot;font-family: &amp;#34;lucida grande&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 12.8px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;20211110_DR_No_Trigger_Tricycle_01.xray&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="1005" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="iyvyuI26L8jkHn6HIsIB-19" target="iyvyuI26L8jkHn6HIsIB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-19" value="与Lane change 有关还得重构Routing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="140" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-20" value="の，等吧" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="340" y="990" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
