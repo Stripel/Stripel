@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T09:02:57.023Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="klXb2AUOKlnTg4Mbgut4" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T09:23:41.032Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="I4RqSVd_xWHwSPUHFIjA" version="15.6.8" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-9" value="未触发" style="swimlane;horizontal=0;fontColor=default;strokeColor=default;fillColor=default;" parent="A2jvRu5w4PexVcgmQUEC-2" vertex="1">
-          <mxGeometry y="190" width="1060" height="140" as="geometry" />
+          <mxGeometry y="190" width="1060" height="210" as="geometry" />
         </mxCell>
         <mxCell id="oMsIglp60gxyCfcpelrI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="A2jvRu5w4PexVcgmQUEC-9" source="A2jvRu5w4PexVcgmQUEC-6" target="A2jvRu5w4PexVcgmQUEC-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -150,8 +150,17 @@
             <mxPoint x="210" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="A2jvRu5w4PexVcgmQUEC-9" source="iyvyuI26L8jkHn6HIsIB-11" target="iyvyuI26L8jkHn6HIsIB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-11" value="ADC无法在Merge Lane上触发DR, 就算触发，Routing结果也无法用于Lane change" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="A2jvRu5w4PexVcgmQUEC-9">
+          <mxGeometry x="30" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-12" value="切断Merge Lane的successor关系，添加neighbor lane 关系" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="A2jvRu5w4PexVcgmQUEC-9">
+          <mxGeometry x="230" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-18" value="误触发" style="swimlane;horizontal=0;fontColor=default;strokeColor=default;fillColor=default;" parent="A2jvRu5w4PexVcgmQUEC-2" vertex="1">
-          <mxGeometry y="390" width="1060" height="100" as="geometry" />
+          <mxGeometry y="465" width="1060" height="100" as="geometry" />
         </mxCell>
         <mxCell id="iyvyuI26L8jkHn6HIsIB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="A2jvRu5w4PexVcgmQUEC-18" source="iyvyuI26L8jkHn6HIsIB-4" target="iyvyuI26L8jkHn6HIsIB-8">
           <mxGeometry relative="1" as="geometry" />
@@ -296,6 +305,12 @@
         </mxCell>
         <mxCell id="iyvyuI26L8jkHn6HIsIB-1" value="建议通过lane change更好" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="340" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.434;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="A2jvRu5w4PexVcgmQUEC-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-250" y="1850" as="sourcePoint" />
+            <mxPoint x="-250" y="1240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
