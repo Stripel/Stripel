@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T07:21:55.056Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="rO2f_ySLv1osRDNol0mM" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T07:22:25.210Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="5PSI2_Z_JKHxGuU8phVk" version="15.6.8" type="github">
   <diagram id="VNsec0-e_zKpV-Jh4-6Q" name="Page-1">
     <mxGraphModel dx="1990" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -159,8 +159,14 @@
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-8" value="在可选区域中选择更优的位置" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="830" y="1035" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="O6xXjUaA9bQ8rykGuiYw-15" target="O6xXjUaA9bQ8rykGuiYw-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-15" value="Pull Over Parkable curb" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1241" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-17" value="需要增加对左边parkable curb 的检查" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1441" y="80" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
