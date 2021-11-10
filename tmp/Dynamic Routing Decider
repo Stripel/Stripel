@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T09:29:38.445Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="7ZSjhd9hawgSAeSDVwlT" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T09:02:57.023Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="klXb2AUOKlnTg4Mbgut4" version="15.6.8" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="A2jvRu5w4PexVcgmQUEC-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" parent="1" source="gXM4ETL81tYky5vnv4Cg-5" target="A2jvRu5w4PexVcgmQUEC-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="gXM4ETL81tYky5vnv4Cg-5" target="A2jvRu5w4PexVcgmQUEC-21">
+        <mxCell id="oMsIglp60gxyCfcpelrI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="gXM4ETL81tYky5vnv4Cg-5" target="A2jvRu5w4PexVcgmQUEC-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="80" y="275" />
@@ -27,7 +27,7 @@
         <mxCell id="gXM4ETL81tYky5vnv4Cg-5" value="当前车道前方状况" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-135" y="245" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gXM4ETL81tYky5vnv4Cg-6" target="A2jvRu5w4PexVcgmQUEC-21">
+        <mxCell id="oMsIglp60gxyCfcpelrI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="gXM4ETL81tYky5vnv4Cg-6" target="A2jvRu5w4PexVcgmQUEC-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="70" y="350" />
@@ -38,7 +38,7 @@
         <mxCell id="gXM4ETL81tYky5vnv4Cg-6" value="左车道车流状况" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-135" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="gXM4ETL81tYky5vnv4Cg-7" target="A2jvRu5w4PexVcgmQUEC-21">
+        <mxCell id="oMsIglp60gxyCfcpelrI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="gXM4ETL81tYky5vnv4Cg-7" target="A2jvRu5w4PexVcgmQUEC-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-15" y="413" />
@@ -97,7 +97,7 @@
           <mxGeometry x="-670" y="475" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-2" value="当前遇到的问题" style="swimlane;fontColor=default;fillColor=default;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-700" y="1030" width="1060" height="640" as="geometry">
+          <mxGeometry x="-710" y="1210" width="1060" height="640" as="geometry">
             <mxRectangle x="-700" y="1030" width="120" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -120,14 +120,18 @@
         <mxCell id="A2jvRu5w4PexVcgmQUEC-9" value="未触发" style="swimlane;horizontal=0;fontColor=default;strokeColor=default;fillColor=default;" parent="A2jvRu5w4PexVcgmQUEC-2" vertex="1">
           <mxGeometry y="190" width="1060" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="A2jvRu5w4PexVcgmQUEC-9" source="A2jvRu5w4PexVcgmQUEC-6" target="A2jvRu5w4PexVcgmQUEC-30">
+        <mxCell id="oMsIglp60gxyCfcpelrI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="A2jvRu5w4PexVcgmQUEC-9" source="A2jvRu5w4PexVcgmQUEC-6" target="A2jvRu5w4PexVcgmQUEC-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-6" value="ADC被前方的行人/非机动车阻挡" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" parent="A2jvRu5w4PexVcgmQUEC-9" vertex="1">
           <mxGeometry x="490" y="20" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="A2jvRu5w4PexVcgmQUEC-9" source="A2jvRu5w4PexVcgmQUEC-8" target="A2jvRu5w4PexVcgmQUEC-32">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="A2jvRu5w4PexVcgmQUEC-9" source="A2jvRu5w4PexVcgmQUEC-8" target="A2jvRu5w4PexVcgmQUEC-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="30" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-8" value="ADC被前方的运动的非机动车阻碍" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" parent="A2jvRu5w4PexVcgmQUEC-9" vertex="1">
           <mxGeometry x="30" y="20" width="120" height="60" as="geometry" />
@@ -136,18 +140,27 @@
           <mxGeometry x="670" y="35" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-32" value="检查是否能超车？还是直接变道" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" parent="A2jvRu5w4PexVcgmQUEC-9" vertex="1">
-          <mxGeometry x="220" y="30" width="110" height="40" as="geometry" />
+          <mxGeometry x="235" y="10" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-2" value="需要额外检查一下三轮车" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="A2jvRu5w4PexVcgmQUEC-9">
-          <mxGeometry x="220" y="70" width="140" height="30" as="geometry" />
+        <mxCell id="oMsIglp60gxyCfcpelrI-2" value="需要额外检查一下三轮车" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="A2jvRu5w4PexVcgmQUEC-9" vertex="1">
+          <mxGeometry x="220" y="50" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="A2jvRu5w4PexVcgmQUEC-9" source="A2jvRu5w4PexVcgmQUEC-8" target="oMsIglp60gxyCfcpelrI-2">
+        <mxCell id="oMsIglp60gxyCfcpelrI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="A2jvRu5w4PexVcgmQUEC-9" source="A2jvRu5w4PexVcgmQUEC-8" target="oMsIglp60gxyCfcpelrI-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-18" value="误触发" style="swimlane;horizontal=0;fontColor=default;strokeColor=default;fillColor=default;" parent="A2jvRu5w4PexVcgmQUEC-2" vertex="1">
           <mxGeometry y="390" width="1060" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="A2jvRu5w4PexVcgmQUEC-18" source="iyvyuI26L8jkHn6HIsIB-4" target="iyvyuI26L8jkHn6HIsIB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-4" value="Lane Follow机动车的情况下" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="A2jvRu5w4PexVcgmQUEC-18">
+          <mxGeometry x="30" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-8" value="增加触发时间间隔" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="A2jvRu5w4PexVcgmQUEC-18">
+          <mxGeometry x="230" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="A2jvRu5w4PexVcgmQUEC-21" target="A2jvRu5w4PexVcgmQUEC-28" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -169,7 +182,7 @@
         <mxCell id="A2jvRu5w4PexVcgmQUEC-21" value="&lt;div style=&quot;text-align: left&quot;&gt;perception/prediction预测Obstacles&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="130" y="360" width="205" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A2jvRu5w4PexVcgmQUEC-24" target="oMsIglp60gxyCfcpelrI-9">
+        <mxCell id="oMsIglp60gxyCfcpelrI-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="A2jvRu5w4PexVcgmQUEC-24" target="oMsIglp60gxyCfcpelrI-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-24" value="位于带有Traffic Light的交通路口中，即将开出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
@@ -210,7 +223,7 @@
         <mxCell id="A2jvRu5w4PexVcgmQUEC-45" value="20211104_DR_No_Trigger_01" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-670" y="645" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A2jvRu5w4PexVcgmQUEC-48" target="oMsIglp60gxyCfcpelrI-7">
+        <mxCell id="oMsIglp60gxyCfcpelrI-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="A2jvRu5w4PexVcgmQUEC-48" target="oMsIglp60gxyCfcpelrI-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A2jvRu5w4PexVcgmQUEC-48" value="DR状态一直为CLEAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
@@ -231,49 +244,58 @@
         <mxCell id="A2jvRu5w4PexVcgmQUEC-55" value="DR的道路状态检查并不可靠" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="560" y="245" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-3" value="解决方案" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1030" width="520" height="530" as="geometry" />
+        <mxCell id="oMsIglp60gxyCfcpelrI-3" value="解决方案" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="370" y="1210" width="520" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-4" value="加强DR Status的检查（经常CLEAR 导致未触发）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
+        <mxCell id="oMsIglp60gxyCfcpelrI-4" value="加强DR Status的检查（经常CLEAR 导致未触发）" style="rounded=0;whiteSpace=wrap;html=1;" parent="oMsIglp60gxyCfcpelrI-3" vertex="1">
           <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-6" value="额外关注一下三轮车的情况" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
+        <mxCell id="oMsIglp60gxyCfcpelrI-6" value="额外关注一下三轮车的情况" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oMsIglp60gxyCfcpelrI-3" vertex="1">
           <mxGeometry x="190" y="77.5" width="160" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="oMsIglp60gxyCfcpelrI-3" source="oMsIglp60gxyCfcpelrI-4" target="oMsIglp60gxyCfcpelrI-6">
+        <mxCell id="oMsIglp60gxyCfcpelrI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="oMsIglp60gxyCfcpelrI-3" source="oMsIglp60gxyCfcpelrI-4" target="oMsIglp60gxyCfcpelrI-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oMsIglp60gxyCfcpelrI-7" target="oMsIglp60gxyCfcpelrI-22">
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-3" value="直接触发DR，但是进行后检查来决定是否覆盖当前Routing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oMsIglp60gxyCfcpelrI-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oMsIglp60gxyCfcpelrI-7" target="oMsIglp60gxyCfcpelrI-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-7" value="IsApproachingLane()加距离放在了检查后" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="oMsIglp60gxyCfcpelrI-7" value="IsApproachingLane()加距离放在了检查后" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="340" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oMsIglp60gxyCfcpelrI-9" target="oMsIglp60gxyCfcpelrI-11">
+        <mxCell id="oMsIglp60gxyCfcpelrI-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oMsIglp60gxyCfcpelrI-9" target="oMsIglp60gxyCfcpelrI-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-9" value="是否检查离出口的距离，而不是按照整个junction过滤" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="oMsIglp60gxyCfcpelrI-9" value="是否检查离出口的距离，而不是按照整个junction过滤" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="140" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-11" value="&amp;nbsp;看来不支持以junction内的位置作为routing起点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="oMsIglp60gxyCfcpelrI-11" value="&amp;nbsp;看来不支持以junction内的位置作为routing起点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="340" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-22" value="IsApproachingLane()加距离放在了检查后" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="oMsIglp60gxyCfcpelrI-22" value="IsApproachingLane()加距离放在了检查后" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="340" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-26" value="多次连续Lane change" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-135" y="740" width="120" height="60" as="geometry" />
+        <mxCell id="oMsIglp60gxyCfcpelrI-26" value="多次连续Lane change" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-135" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oMsIglp60gxyCfcpelrI-28" target="oMsIglp60gxyCfcpelrI-29">
+        <mxCell id="oMsIglp60gxyCfcpelrI-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oMsIglp60gxyCfcpelrI-28" target="oMsIglp60gxyCfcpelrI-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-28" value="前方有静态障碍物" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-135" y="850" width="120" height="60" as="geometry" />
+        <mxCell id="oMsIglp60gxyCfcpelrI-28" value="前方有静态障碍物" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-135" y="880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oMsIglp60gxyCfcpelrI-29" value="替换不做DR,改为改submap,做lane change" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="140" y="850" width="120" height="60" as="geometry" />
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oMsIglp60gxyCfcpelrI-29" target="iyvyuI26L8jkHn6HIsIB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMsIglp60gxyCfcpelrI-29" value="DR直接过滤不触发" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="140" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-1" value="建议通过lane change更好" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="340" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
