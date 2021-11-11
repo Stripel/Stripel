@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-11T04:12:27.254Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="_bM9thJZKRVG2U1nCNNg" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-11T07:50:19.100Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="eg0KFLgCqCmwhDo_K5hT" version="15.6.8" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -334,6 +334,12 @@
         </mxCell>
         <mxCell id="iyvyuI26L8jkHn6HIsIB-20" value="の，等吧" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="340" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="iyvyuI26L8jkHn6HIsIB-22" target="oMsIglp60gxyCfcpelrI-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-22" value="&lt;span style=&quot;font-family: &amp;#34;lucida grande&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 12.8px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;20211111_DR_FN_static_01.xray&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="895" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
