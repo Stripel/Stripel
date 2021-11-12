@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T03:50:47.360Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="OcA3Xl4BpyCzLWRdpVIv" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-12T07:25:01.367Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="SDyA92_p_Rhzko10mSnm" version="15.6.8" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -281,6 +281,9 @@
         </mxCell>
         <mxCell id="iyvyuI26L8jkHn6HIsIB-25" value="修改距离检查，缩短配置设置的距离，并且添加按速度配置距离" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
           <mxGeometry x="40" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-28" value="需要修改的参数列表" style="swimlane;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
+          <mxGeometry x="190" y="155" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="oMsIglp60gxyCfcpelrI-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oMsIglp60gxyCfcpelrI-7" target="oMsIglp60gxyCfcpelrI-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
