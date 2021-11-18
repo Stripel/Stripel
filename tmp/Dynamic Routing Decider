@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T06:36:02.300Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="fOfp0J5IrGNOJdEFeGD8" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T06:39:45.938Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="dJQWH4thQInTfbma4NUz" version="15.6.8" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -285,8 +285,14 @@
         <mxCell id="iyvyuI26L8jkHn6HIsIB-29" value="需要修改的参数列表&lt;br&gt;&amp;nbsp;dynamic_routing_cooldown_time: 1.0&amp;nbsp; 太小&lt;br&gt;&lt;div&gt;&amp;nbsp;min_traffic_light_junction_distance: 300.0&amp;nbsp; 太大&lt;/div&gt;&lt;div&gt;&amp;nbsp;min_turn_or_split_distance: 300.0 太大&lt;/div&gt;&lt;div&gt;&amp;nbsp;max_blocking_obs_s_distance: 20.0 太大&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
           <mxGeometry x="180" y="174" width="265" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="iyvyuI26L8jkHn6HIsIB-30" value="如何使DR的触发距离适应最大和最小的路口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
-          <mxGeometry x="40" y="390" width="140" height="60" as="geometry" />
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="oMsIglp60gxyCfcpelrI-3" source="iyvyuI26L8jkHn6HIsIB-30" target="iyvyuI26L8jkHn6HIsIB-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-30" value="对路口的处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
+          <mxGeometry x="55" y="390" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-32" value="对弯道的处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
+          <mxGeometry x="55" y="490" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="oMsIglp60gxyCfcpelrI-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oMsIglp60gxyCfcpelrI-7" target="oMsIglp60gxyCfcpelrI-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
