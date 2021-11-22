@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T10:01:53.059Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="gBYtpcRo-4EsY7FgCz1M" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-22T03:44:58.356Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="z6W1j30eiv2a_qwDvsCe" version="15.6.8" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -297,8 +297,14 @@
         <mxCell id="iyvyuI26L8jkHn6HIsIB-34" value="添加Keep Clear障碍物判断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
           <mxGeometry x="30" y="590" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="oMsIglp60gxyCfcpelrI-3" source="iyvyuI26L8jkHn6HIsIB-35" target="iyvyuI26L8jkHn6HIsIB-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="iyvyuI26L8jkHn6HIsIB-35" value="加个对运动三轮车的判定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
           <mxGeometry x="380" y="77.5" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="iyvyuI26L8jkHn6HIsIB-37" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;CheckLeadingObstacleIntentAndType&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
+          <mxGeometry x="330" y="135" width="160" height="25" as="geometry" />
         </mxCell>
         <mxCell id="oMsIglp60gxyCfcpelrI-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oMsIglp60gxyCfcpelrI-7" target="oMsIglp60gxyCfcpelrI-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
