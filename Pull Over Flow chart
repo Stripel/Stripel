@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T04:06:47.074Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="tKlCb0huUKIW1lzkObqY" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-22T04:32:56.055Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="m68XYjur16kxCWuEMBaE" version="15.6.8" type="github">
   <diagram id="VNsec0-e_zKpV-Jh4-6Q" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -207,8 +207,11 @@
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-31" value="curbDistance同步问题修复" style="swimlane;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1241" y="180" width="369" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="O6xXjUaA9bQ8rykGuiYw-32" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-31">
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-32" value="debug-&amp;gt;planningDate-&amp;gt;pulloverDebug-&amp;gt;curb-&amp;gt;distance" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-31">
           <mxGeometry x="29" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-33" value="pullover-&amp;gt;curbDistance" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-31">
+          <mxGeometry x="29" y="160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
