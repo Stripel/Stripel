@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T06:55:29.699Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="f3YZSVCib5Y6-nTa99WC" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-23T07:24:43.209Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="IbjvV2C3DhGopnfWNIVR" version="15.6.8" type="github">
   <diagram id="VNsec0-e_zKpV-Jh4-6Q" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,6 +93,12 @@
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="O6xXjUaA9bQ8rykGuiYw-1" source="O6xXjUaA9bQ8rykGuiYw-12" target="p4YGpPZp4Mtnos7cMM3a-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="O6xXjUaA9bQ8rykGuiYw-1" source="O6xXjUaA9bQ8rykGuiYw-12" target="p4YGpPZp4Mtnos7cMM3a-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="O6xXjUaA9bQ8rykGuiYw-1" source="O6xXjUaA9bQ8rykGuiYw-12" target="O6xXjUaA9bQ8rykGuiYw-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-12" value="计算Pull over search range" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-1">
           <mxGeometry x="760" y="280" width="150" height="30" as="geometry" />
         </mxCell>
@@ -179,6 +185,27 @@
         </mxCell>
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-40" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-weight: normal ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;忽略在ADC后方，并且在同一车道&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-1">
           <mxGeometry x="843" y="1043" width="197.5" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="O6xXjUaA9bQ8rykGuiYw-1" source="O6xXjUaA9bQ8rykGuiYw-43" target="O6xXjUaA9bQ8rykGuiYw-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-43" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;LimitByNonParkableCurb&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-1">
+          <mxGeometry x="1009" y="282" width="191" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="O6xXjUaA9bQ8rykGuiYw-1" source="O6xXjUaA9bQ8rykGuiYw-44" target="O6xXjUaA9bQ8rykGuiYw-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-44" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;GetPhysicalBoundaries&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-1">
+          <mxGeometry x="1009" y="344" width="191" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="O6xXjUaA9bQ8rykGuiYw-1" source="O6xXjUaA9bQ8rykGuiYw-46" target="O6xXjUaA9bQ8rykGuiYw-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-46" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;ExtendCurbSearchLength&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-1">
+          <mxGeometry x="1009" y="407" width="191" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-48" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;UpdateCurbExtendLength&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-1">
+          <mxGeometry x="1009" y="473.63" width="191" height="27" as="geometry" />
         </mxCell>
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="O6xXjUaA9bQ8rykGuiYw-2" target="O6xXjUaA9bQ8rykGuiYw-3">
           <mxGeometry relative="1" as="geometry" />
