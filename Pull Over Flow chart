@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T03:01:49.138Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="RcX6iWq6bZ3tvCU3tZYJ" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T03:58:15.812Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="3bDwDwjadc6jFGt3wQMc" version="15.8.6" type="github">
   <diagram id="VNsec0-e_zKpV-Jh4-6Q" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -284,18 +284,52 @@
           <mxGeometry x="1580" y="1575" width="457.05" height="170" as="geometry" />
         </mxCell>
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-31" value="curbDistance同步问题修复" style="swimlane;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1680" y="160" width="369" height="470" as="geometry">
+          <mxGeometry x="1680" y="150" width="740" height="470" as="geometry">
             <mxRectangle x="1680" y="160" width="180" height="23" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="O6xXjUaA9bQ8rykGuiYw-31" source="O6xXjUaA9bQ8rykGuiYw-32" target="VLVLioL7Mmd0LCUxNRGi-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-32" value="debug-&amp;gt;planningDate-&amp;gt;pulloverDebug-&amp;gt;curb-&amp;gt;distance" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="O6xXjUaA9bQ8rykGuiYw-31" vertex="1">
           <mxGeometry x="29" y="60" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="O6xXjUaA9bQ8rykGuiYw-31" source="O6xXjUaA9bQ8rykGuiYw-33" target="VLVLioL7Mmd0LCUxNRGi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-33" value="pullover-&amp;gt;curbDistance" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="O6xXjUaA9bQ8rykGuiYw-31" vertex="1">
-          <mxGeometry x="29" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="24.5" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="O6xXjUaA9bQ8rykGuiYw-31" source="VLVLioL7Mmd0LCUxNRGi-7" target="VLVLioL7Mmd0LCUxNRGi-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="O6xXjUaA9bQ8rykGuiYw-31" source="VLVLioL7Mmd0LCUxNRGi-7" target="VLVLioL7Mmd0LCUxNRGi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-7" value="parking_lot信息" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-31">
+          <mxGeometry x="229" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-9" value="pullover-&amp;gt;curbDistance" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-31">
+          <mxGeometry x="224.5" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-13" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;CreatePullOverDebug&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-31">
+          <mxGeometry x="440" y="140" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-14" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;InitOldParkingLotInfo&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-31">
+          <mxGeometry x="440" y="210" width="203.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-17" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;CheckPullOverComplete&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-31">
+          <mxGeometry x="440" y="75" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="O6xXjUaA9bQ8rykGuiYw-31" source="VLVLioL7Mmd0LCUxNRGi-7" target="VLVLioL7Mmd0LCUxNRGi-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="170" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-54" value="ADC停车位置远离终点" style="swimlane;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2060" y="160" width="390" height="470" as="geometry" />
+          <mxGeometry x="2068" y="699" width="390" height="470" as="geometry">
+            <mxRectangle x="2070" y="680" width="150" height="23" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-53" value="要求距离终点15.0m内" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="O6xXjUaA9bQ8rykGuiYw-54" vertex="1">
           <mxGeometry x="30" y="60" width="120" height="60" as="geometry" />
