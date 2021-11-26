@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T04:06:04.839Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="aknGwwbptaLaAyA740hb" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T06:15:11.879Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="BzP9EJ-D24HV1Kd-qiHB" version="15.8.6" type="github">
   <diagram id="VNsec0-e_zKpV-Jh4-6Q" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-1" value="Pull Over 流程图" style="swimlane;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-200" y="50" width="1699" height="1344" as="geometry">
+          <mxGeometry x="-200" y="50" width="1640" height="1344" as="geometry">
             <mxRectangle x="120" y="80" width="120" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -337,14 +337,17 @@
             <mxRectangle x="2070" y="680" width="150" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O6xXjUaA9bQ8rykGuiYw-53" value="要求距离终点15.0m内" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="O6xXjUaA9bQ8rykGuiYw-54" vertex="1">
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-53" value="app要求停车地点距离终点20.0m内" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="O6xXjUaA9bQ8rykGuiYw-54" vertex="1">
           <mxGeometry x="30" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O6xXjUaA9bQ8rykGuiYw-55" value="增加了等待时间，但是并没有" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="O6xXjUaA9bQ8rykGuiYw-54" vertex="1">
+        <mxCell id="O6xXjUaA9bQ8rykGuiYw-55" value="增加了2.0s等待时间，但是并没有移动" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="O6xXjUaA9bQ8rykGuiYw-54" vertex="1">
           <mxGeometry x="30" y="156" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-57" value="parking space 与障碍物重叠" style="swimlane;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1680" y="659" width="350" height="471" as="geometry" />
+        </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-25" value="parking space与障碍物重叠，并且偏障碍物右边" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-57">
+          <mxGeometry x="29" y="50" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
