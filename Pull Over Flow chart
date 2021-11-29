@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T07:35:48.000Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="bbrgp2fxx-ZvaOmOjPIL" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-29T07:39:03.789Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="F8Bvpbpy7-YnMmiOM-qO" version="15.8.6" type="github">
   <diagram id="VNsec0-e_zKpV-Jh4-6Q" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -311,7 +311,7 @@
           <mxGeometry x="2040" y="1715" width="457.05" height="170" as="geometry" />
         </mxCell>
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-31" value="curbDistance同步问题修复" style="swimlane;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1660" y="170" width="1000" height="470" as="geometry">
+          <mxGeometry x="1660" y="170" width="1000" height="610" as="geometry">
             <mxRectangle x="1680" y="160" width="180" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -335,6 +335,11 @@
         </mxCell>
         <mxCell id="VLVLioL7Mmd0LCUxNRGi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="O6xXjUaA9bQ8rykGuiYw-31" source="VLVLioL7Mmd0LCUxNRGi-7" target="VLVLioL7Mmd0LCUxNRGi-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="O6xXjUaA9bQ8rykGuiYw-31" source="VLVLioL7Mmd0LCUxNRGi-7" target="VLVLioL7Mmd0LCUxNRGi-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="VLVLioL7Mmd0LCUxNRGi-7" value="parking_lot信息" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-31">
           <mxGeometry x="229" y="60" width="120" height="60" as="geometry" />
@@ -383,8 +388,17 @@
         <mxCell id="VLVLioL7Mmd0LCUxNRGi-47" value="&lt;div style=&quot;text-align: left ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;adc后轴到curb的距离&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-31">
           <mxGeometry x="440" y="130" width="210" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="O6xXjUaA9bQ8rykGuiYw-31" source="VLVLioL7Mmd0LCUxNRGi-50" target="VLVLioL7Mmd0LCUxNRGi-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-50" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;FindParkingLots&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-31">
+          <mxGeometry x="440" y="400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLVLioL7Mmd0LCUxNRGi-52" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;parking_space到curb的距离&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-31">
+          <mxGeometry x="440" y="470" width="210" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-54" value="ADC停车位置远离终点" style="swimlane;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2068" y="660" width="352" height="470" as="geometry">
+          <mxGeometry x="2060" y="1141" width="352" height="470" as="geometry">
             <mxRectangle x="2070" y="680" width="150" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -395,7 +409,7 @@
           <mxGeometry x="30" y="156" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O6xXjUaA9bQ8rykGuiYw-57" value="parking space 与障碍物重叠" style="swimlane;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1680" y="659" width="350" height="471" as="geometry" />
+          <mxGeometry x="1660" y="1140" width="350" height="471" as="geometry" />
         </mxCell>
         <mxCell id="VLVLioL7Mmd0LCUxNRGi-25" value="parking space与障碍物重叠，并且偏障碍物右边" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="O6xXjUaA9bQ8rykGuiYw-57">
           <mxGeometry x="29" y="50" width="120" height="60" as="geometry" />
