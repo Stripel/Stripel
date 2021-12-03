@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T11:57:28.127Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="XkVGbnSbkXB_GdCMR78I" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T03:00:24.319Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="lXTjUTVcZzSkdUZm_aWB" version="15.8.7" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -260,7 +260,7 @@
           <mxGeometry x="560" y="245" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oMsIglp60gxyCfcpelrI-3" value="解决方案" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="370" y="1210" width="590" height="930" as="geometry" />
+          <mxGeometry x="370" y="1210" width="590" height="987" as="geometry" />
         </mxCell>
         <mxCell id="oMsIglp60gxyCfcpelrI-4" value="加强DR Status的检查（经常CLEAR 导致未触发）" style="rounded=0;whiteSpace=wrap;html=1;" parent="oMsIglp60gxyCfcpelrI-3" vertex="1">
           <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
@@ -312,8 +312,32 @@
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-1" value="DR结果没有去lane change" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
           <mxGeometry x="40" y="700" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oMsIglp60gxyCfcpelrI-3" source="f28dfZV_DBwTJ8nSHQ-l-2" target="f28dfZV_DBwTJ8nSHQ-l-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-2" value="对临边车道添加waypoint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
-          <mxGeometry x="240" y="700" width="120" height="60" as="geometry" />
+          <mxGeometry x="192" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oMsIglp60gxyCfcpelrI-3" source="f28dfZV_DBwTJ8nSHQ-l-4" target="f28dfZV_DBwTJ8nSHQ-l-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="oMsIglp60gxyCfcpelrI-3" source="f28dfZV_DBwTJ8nSHQ-l-4" target="f28dfZV_DBwTJ8nSHQ-l-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oMsIglp60gxyCfcpelrI-3" source="f28dfZV_DBwTJ8nSHQ-l-4" target="f28dfZV_DBwTJ8nSHQ-l-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-4" value="添加的waypoint在哪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
+          <mxGeometry x="192" y="787" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-6" value="ADC前方一定距离内" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
+          <mxGeometry x="392" y="787" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-8" value="根据ADC的速度选取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
+          <mxGeometry x="394" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-10" value="距离过长错过，距离过短lane change距离不够" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
+          <mxGeometry x="192" y="927" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oMsIglp60gxyCfcpelrI-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oMsIglp60gxyCfcpelrI-7" target="oMsIglp60gxyCfcpelrI-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
