@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-08T03:45:58.477Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="UeO4WJD0T-Ol6l8MSN0V" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-08T07:57:03.923Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="wL8SF648TjZyIRKkRk0O" version="15.8.7" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -323,8 +323,14 @@
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-61" value="为Obstacle添加penalty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
           <mxGeometry x="200" y="700" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oMsIglp60gxyCfcpelrI-3" source="f28dfZV_DBwTJ8nSHQ-l-62" target="f28dfZV_DBwTJ8nSHQ-l-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-62" value="将禁用的lane 从admissible lane中移除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
           <mxGeometry x="200" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-64" value="已完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
+          <mxGeometry x="400" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oMsIglp60gxyCfcpelrI-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oMsIglp60gxyCfcpelrI-7" target="oMsIglp60gxyCfcpelrI-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -503,7 +509,7 @@
           <mxGeometry x="770" y="130" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-47" value="输出" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="2879" width="290" height="120" as="geometry" />
+          <mxGeometry x="-610" y="2879" width="290" height="120" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-48" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-47">
           <mxGeometry y="30" width="290" height="30" as="geometry" />
