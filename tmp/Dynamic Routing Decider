@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T08:23:12.195Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="r_Zj-oGVOrqk9MjRojON" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-09T09:17:23.449Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="d-3dHSnmo0aUgtB68KV0" version="15.8.7" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
-    <mxGraphModel dx="1573" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2817" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -665,10 +665,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-118" value="障碍物检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="125" y="1230" width="95" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-116" source="f28dfZV_DBwTJ8nSHQ-l-119" target="f28dfZV_DBwTJ8nSHQ-l-136">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="135" y="890" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-116" source="f28dfZV_DBwTJ8nSHQ-l-119" target="f28dfZV_DBwTJ8nSHQ-l-156">
           <mxGeometry relative="1" as="geometry" />
@@ -698,70 +695,82 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-130" value="与红绿灯路口距离" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="290" y="200" width="140" height="30" as="geometry" />
+          <mxGeometry x="290" y="149" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-131" value="与激活斑马线距离" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="290" y="251" width="140" height="30" as="geometry" />
+          <mxGeometry x="290" y="200" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-134" value="是否在lane change" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="290" y="607" width="140" height="32" as="geometry" />
+          <mxGeometry x="290" y="523" width="140" height="32" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-116" source="f28dfZV_DBwTJ8nSHQ-l-119" target="f28dfZV_DBwTJ8nSHQ-l-134">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-136" value="ADC是否摆正" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="290" y="440" width="140" height="32" as="geometry" />
-        </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-138" value="与终点距离" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="290" y="302" width="140" height="30" as="geometry" />
+          <mxGeometry x="290" y="251" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-140" value="与turn或split的距离" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
           <mxGeometry x="290" y="50" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-142" value="与红灯距离" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="290" y="360" width="140" height="30" as="geometry" />
+          <mxGeometry x="290" y="309" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-145" value="可移除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="510" y="200" width="140" height="30" as="geometry" />
+          <mxGeometry x="510" y="149" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-151" value="与障碍物的距离" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="280" y="1230" width="140" height="30" as="geometry" />
+          <mxGeometry x="290" y="890" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-150" value="ADCfollow障碍物或者stop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="280" y="1170" width="150" height="30" as="geometry" />
+          <mxGeometry x="290" y="830" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-152" value="障碍物是否接近车道限速" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="280" y="1292" width="140" height="30" as="geometry" />
+          <mxGeometry x="290" y="952" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-156" value="ADC车道是否合法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="290" y="498" width="140" height="32" as="geometry" />
+          <mxGeometry x="290" y="414" width="140" height="32" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-158" value="ADC紧急停车" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="290" y="557" width="140" height="32" as="geometry" />
+          <mxGeometry x="290" y="473" width="140" height="32" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-116" source="f28dfZV_DBwTJ8nSHQ-l-161" target="f28dfZV_DBwTJ8nSHQ-l-163">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-161" value="ADC在大型弯道上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="290" y="660" width="140" height="32" as="geometry" />
+          <mxGeometry x="290" y="576" width="140" height="32" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-163" value="还是加入道路信息检查吧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="510" y="660" width="140" height="32" as="geometry" />
+          <mxGeometry x="510" y="576" width="140" height="32" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-165" value="ADC是否接近reference line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="290" y="723" width="150" height="37" as="geometry" />
+          <mxGeometry x="290" y="639" width="150" height="37" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-116" source="f28dfZV_DBwTJ8nSHQ-l-166" target="f28dfZV_DBwTJ8nSHQ-l-163">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-166" value="ADC附近是否有其他forward车道" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="290" y="780" width="140" height="32" as="geometry" />
+          <mxGeometry x="290" y="696" width="140" height="32" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-116" source="f28dfZV_DBwTJ8nSHQ-l-170" target="f28dfZV_DBwTJ8nSHQ-l-163">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-170" value="剩余lane change 空间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
-          <mxGeometry x="290" y="840" width="140" height="30" as="geometry" />
+          <mxGeometry x="290" y="756" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-116" source="f28dfZV_DBwTJ8nSHQ-l-173" target="f28dfZV_DBwTJ8nSHQ-l-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-116" source="f28dfZV_DBwTJ8nSHQ-l-173" target="f28dfZV_DBwTJ8nSHQ-l-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-173" value="Dynamic Routing 触发检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
+          <mxGeometry x="135" y="1060" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-175" value="相同帧已触发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
+          <mxGeometry x="290" y="1020" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-177" value="DR冷却时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
+          <mxGeometry x="290" y="1070" width="95" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
