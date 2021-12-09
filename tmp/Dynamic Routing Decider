@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-08T09:16:17.705Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Vcmw5E1UHrdBukUMf7eg" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-09T07:52:12.848Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="d3gFHN-QYoIalaX5ebal" version="15.8.7" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -317,9 +317,6 @@
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-1" value="DR结果没有去lane change" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
           <mxGeometry x="40" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-12" value="routing_config.pb.h里的penalty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
-          <mxGeometry x="100" y="920" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-61" value="为Obstacle添加penalty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oMsIglp60gxyCfcpelrI-3">
           <mxGeometry x="200" y="700" width="120" height="60" as="geometry" />
         </mxCell>
@@ -403,8 +400,10 @@
         <mxCell id="iyvyuI26L8jkHn6HIsIB-26" value="&lt;span style=&quot;font-family: &amp;#34;lucida grande&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 12.8px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;20211112_DR_FN_static_01.xray&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-660" y="940" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-13" value="Dynamic Routing dfs 搜索流程" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="2020" width="1060" height="1060" as="geometry" />
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-13" value="Dynamic Routing dfs 搜索流程" style="swimlane;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="1010" y="2110" width="200" height="23" as="geometry">
+            <mxRectangle x="-720" y="2020" width="1060" height="1060" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-15" value="输入" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-13">
           <mxGeometry x="110" y="178" width="290" height="240" as="geometry" />
@@ -494,7 +493,7 @@
           <mxGeometry y="90" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-52" value="输出" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-13">
-          <mxGeometry x="470" y="378" width="290" height="120" as="geometry" />
+          <mxGeometry x="470" y="390" width="290" height="120" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-53" value="go_to_: a_star的结果" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-52">
           <mxGeometry y="30" width="290" height="30" as="geometry" />
@@ -508,8 +507,8 @@
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-57" value="可这不就是Dijstria吗？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-13">
           <mxGeometry x="770" y="130" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-47" value="输出" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="2879" width="290" height="120" as="geometry" />
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-47" value="输出" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-13">
+          <mxGeometry x="110" y="840" width="290" height="120" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-48" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-47">
           <mxGeometry y="30" width="290" height="30" as="geometry" />
@@ -520,11 +519,13 @@
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-50" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-47">
           <mxGeometry y="90" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f28dfZV_DBwTJ8nSHQ-l-34" target="f28dfZV_DBwTJ8nSHQ-l-47">
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-13" source="f28dfZV_DBwTJ8nSHQ-l-34" target="f28dfZV_DBwTJ8nSHQ-l-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-66" value="Lane change 与Dynamic Routing 交互状态机" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="370" y="2320" width="890" height="760" as="geometry" />
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-66" value="Lane change 与Dynamic Routing 交互状态机" style="swimlane;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="1010" y="2160" width="280" height="23" as="geometry">
+            <mxRectangle x="370" y="2320" width="890" height="760" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-66" source="f28dfZV_DBwTJ8nSHQ-l-67" target="f28dfZV_DBwTJ8nSHQ-l-69">
           <mxGeometry relative="1" as="geometry" />
@@ -629,6 +630,18 @@
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-112" value="No_Lane_Change" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-66">
           <mxGeometry x="133" y="100" width="133" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-116" value="DR 触发条件" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="2000" width="1060" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-117" value="道路信息检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
+          <mxGeometry x="135" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-118" value="障碍物检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
+          <mxGeometry x="135" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-119" value="ADC自车检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
+          <mxGeometry x="135" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
