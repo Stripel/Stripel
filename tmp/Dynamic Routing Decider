@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T07:57:25.802Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="fZZgi6bY00Lme5V8SJ4T" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T06:20:16.775Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="RNxnyjKTAMq--IeE8Fsj" version="15.8.7" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -718,7 +718,7 @@
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-142" value="与红灯距离" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
           <mxGeometry x="215" y="687" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-145" value="可移除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-145" value="&lt;u&gt;可移除&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
           <mxGeometry x="435" y="440" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-151" value="与障碍物的距离" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
@@ -742,7 +742,7 @@
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-161" value="ADC在大型弯道上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
           <mxGeometry x="215" y="202" width="140" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-163" value="还是加入道路信息检查吧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-163" value="&lt;u&gt;加入道路信息检查&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
           <mxGeometry x="435" y="202" width="140" height="32" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-165" value="ADC是否接近reference line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
