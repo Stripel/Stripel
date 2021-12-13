@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T07:07:05.832Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="FXL66FV3_tmEUTbBP2BH" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T07:08:20.961Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="v7FtGPuYo7qp06uaWe-d" version="15.8.7" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2817" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -632,7 +632,9 @@
           <mxGeometry x="133" y="100" width="133" height="32" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-116" value="DR 触发条件" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="2000" width="1010" height="1150" as="geometry" />
+          <mxGeometry x="-720" y="2000" width="1010" height="1150" as="geometry">
+            <mxRectangle x="-720" y="2000" width="100" height="23" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-116" source="f28dfZV_DBwTJ8nSHQ-l-117" target="f28dfZV_DBwTJ8nSHQ-l-120">
           <mxGeometry relative="1" as="geometry" />
@@ -777,6 +779,12 @@
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-179" value="障碍物类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
           <mxGeometry x="215" y="917" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-187" value="&lt;u&gt;下划线&lt;/u&gt;：未完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
+          <mxGeometry x="840" y="50" width="140" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="f28dfZV_DBwTJ8nSHQ-l-188" value="&lt;i&gt;斜体&lt;/i&gt;：正在开发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-116">
+          <mxGeometry x="840" y="90" width="140" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
