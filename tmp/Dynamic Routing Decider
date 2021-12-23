@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T08:38:00.218Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="46CJ6VWC8kQu35hBjUqj" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-23T09:27:53.834Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="wwTKGBBV3HuR4dMwe1Nx" version="15.9.6" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="1573" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -512,11 +512,41 @@
         <mxCell id="paSeimruGZbOwAh4-UnC-4" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Search&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-13">
           <mxGeometry x="852" y="180" width="118" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="paSeimruGZbOwAh4-UnC-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-13" source="paSeimruGZbOwAh4-UnC-6" target="paSeimruGZbOwAh4-UnC-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="paSeimruGZbOwAh4-UnC-6" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;GetSubOutEdgesIntoSubGraph&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-13">
-          <mxGeometry x="791" y="236" width="240" height="32" as="geometry" />
+          <mxGeometry x="852" y="236" width="240" height="32" as="geometry" />
         </mxCell>
         <mxCell id="paSeimruGZbOwAh4-UnC-7" value="&lt;div style=&quot;line-height: 19px ; font-size: 14px ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34;&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;GetSubNodes&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-13">
-          <mxGeometry x="846" y="310" width="130" height="32" as="geometry" />
+          <mxGeometry x="852" y="310" width="130" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="paSeimruGZbOwAh4-UnC-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-13" source="paSeimruGZbOwAh4-UnC-8" target="paSeimruGZbOwAh4-UnC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paSeimruGZbOwAh4-UnC-8" value="&lt;div style=&quot;line-height: 19px ; font-size: 14px ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34;&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;GetLaneCongestionLength&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-13">
+          <mxGeometry x="852" y="378" width="220" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="paSeimruGZbOwAh4-UnC-10" value="&lt;div style=&quot;line-height: 19px ; font-size: 14px ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34;&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;获得to_node的拥塞长度&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-13">
+          <mxGeometry x="1152" y="378" width="220" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="paSeimruGZbOwAh4-UnC-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-13" source="paSeimruGZbOwAh4-UnC-12" target="paSeimruGZbOwAh4-UnC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paSeimruGZbOwAh4-UnC-12" value="&lt;div style=&quot;line-height: 19px ; font-size: 14px ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34;&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;DfsLaneChange&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-13">
+          <mxGeometry x="850" y="454" width="220" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="paSeimruGZbOwAh4-UnC-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="f28dfZV_DBwTJ8nSHQ-l-13" source="paSeimruGZbOwAh4-UnC-13" target="paSeimruGZbOwAh4-UnC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paSeimruGZbOwAh4-UnC-13" value="&lt;div style=&quot;line-height: 19px ; font-size: 14px ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34;&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;深搜lane change部分的路径，积累到一定距离后结束&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-13">
+          <mxGeometry x="1120" y="452" width="220" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="paSeimruGZbOwAh4-UnC-15" value="&lt;div style=&quot;line-height: 19px ; font-size: 14px ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34;&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;搜索方向包括相同lane change方向或者向前&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-13">
+          <mxGeometry x="1120" y="570" width="220" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="paSeimruGZbOwAh4-UnC-17" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;edge, sub_edges,获得edge的from_node和to_node.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f28dfZV_DBwTJ8nSHQ-l-13">
+          <mxGeometry x="1172" y="236" width="238" height="44" as="geometry" />
         </mxCell>
         <mxCell id="f28dfZV_DBwTJ8nSHQ-l-66" value="Lane change 与Dynamic Routing 交互状态机" style="swimlane;" parent="1" vertex="1" collapsed="1">
           <mxGeometry x="980" y="1210" width="280" height="23" as="geometry">
@@ -1023,9 +1053,6 @@
         </mxCell>
         <mxCell id="S566hd_PBAteac7lwtqr-86" value="&lt;i&gt;斜体&lt;/i&gt;：正在开发" style="rounded=0;whiteSpace=wrap;html=1;" parent="S566hd_PBAteac7lwtqr-1" vertex="1">
           <mxGeometry x="1560" y="97.5" width="140" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="paSeimruGZbOwAh4-UnC-8" value="&lt;div style=&quot;line-height: 19px ; font-size: 14px ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34;&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;GetLaneCongestionLength&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1790" y="1720" width="220" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
