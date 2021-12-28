@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T08:59:38.035Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="xDlcfGvZsMtuwEav_Su-" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T09:22:43.165Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="st8XOAoJ0g1SAKk18q4x" version="16.0.3" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="3147" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1067,7 +1067,7 @@
           <mxGeometry x="1560" y="97.5" width="140" height="32" as="geometry" />
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-1" value="Vertical Container" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="-980" y="2010" width="1320" height="1210" as="geometry" />
+          <mxGeometry x="-981" y="2010" width="1320" height="1210" as="geometry" />
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-8" value="Dynamic routing 中有对obstacle相关的计算，但没有cost相关" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
           <mxGeometry x="70" y="210" width="350" height="20" as="geometry" />
@@ -1114,7 +1114,7 @@
         <mxCell id="oPFkESkCdXQrcqv56q01-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-1" source="oPFkESkCdXQrcqv56q01-28" target="oPFkESkCdXQrcqv56q01-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oPFkESkCdXQrcqv56q01-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-1" source="oPFkESkCdXQrcqv56q01-28" target="oPFkESkCdXQrcqv56q01-40">
+        <mxCell id="oPFkESkCdXQrcqv56q01-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-1" source="oPFkESkCdXQrcqv56q01-28" target="oPFkESkCdXQrcqv56q01-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-28" value="Init()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
@@ -1167,8 +1167,38 @@
         <mxCell id="oPFkESkCdXQrcqv56q01-38" value="MergeBlockRange()对同一个node中的block range进行合并，range 相连的合并为一个range， 对最后接近node EndS的range有特殊处理，对于virtual 的 range，在ends处的直接ignore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
           <mxGeometry x="1120" y="371" width="190" height="98" as="geometry" />
         </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-1" source="oPFkESkCdXQrcqv56q01-40" target="oPFkESkCdXQrcqv56q01-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-40" value="SearchRouteByStragety()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
-          <mxGeometry x="652.5" y="320" width="145" height="20" as="geometry" />
+          <mxGeometry x="652.5" y="351" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-1" source="oPFkESkCdXQrcqv56q01-42" target="oPFkESkCdXQrcqv56q01-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-42" value="Topo_range_maneger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
+          <mxGeometry x="652.5" y="310" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-1" source="oPFkESkCdXQrcqv56q01-46" target="oPFkESkCdXQrcqv56q01-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-46" value="blacklist_range_manger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
+          <mxGeometry x="652.5" y="400" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-1" source="oPFkESkCdXQrcqv56q01-48" target="oPFkESkCdXQrcqv56q01-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-1" source="oPFkESkCdXQrcqv56q01-48" target="oPFkESkCdXQrcqv56q01-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-48" value="AddBlackMapFromTerminal()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
+          <mxGeometry x="646.25" y="481.5" width="157.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-52" value="AddBlackMapFromOut/InParallel() 按每对相邻waypoint的routing 起点终点所有同列lane做截取，否则routing 结果将覆盖整条lane" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
+          <mxGeometry x="874" y="463" width="206" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-54" value="sub_graph" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
+          <mxGeometry x="646.25" y="536.5" width="157.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
