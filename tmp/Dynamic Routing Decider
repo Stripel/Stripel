@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T02:32:52.441Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="peJI_CE4ZC2qBUtit9Sd" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T04:14:45.689Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="lu_9oK31K2Utp1yToDco" version="16.0.3" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="2320" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1071,6 +1071,15 @@
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-2" value="add blocked map from&amp;nbsp; &amp;nbsp; 检查失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
           <mxGeometry x="160" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-8" value="Dynamic routing 中有对obstacle相关的计算，但没有cost相关" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
+          <mxGeometry x="70" y="210" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-9" value="blacklisted_lane 在求解Routing的过程中存于sub_graph中，在dp_behavior_graph中的block_range_manager是直接根据障碍物求得的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
+          <mxGeometry x="80" y="250" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-10" value="Dynamic Routing首先会用dfs求解，dfs会分为四种情况求解&lt;br&gt;1.驶向当前lane的下一段 &lt;br&gt;2.到达了终点 &lt;br&gt;3.驶向后继的lane &lt;br&gt;4.lane change &lt;br&gt;然后使用dijkstra求解，之后对比两个结果得出最小的花费方案" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
+          <mxGeometry x="80" y="310" width="330" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
