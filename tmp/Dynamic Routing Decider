@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T06:57:30.601Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="eCNEpi8PZS-e_nUIxihG" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T08:55:37.205Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="yazHh6EUxmnBY16auVVi" version="16.0.3" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="3147" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1158,8 +1158,8 @@
         <mxCell id="oPFkESkCdXQrcqv56q01-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-1" source="oPFkESkCdXQrcqv56q01-26" target="oPFkESkCdXQrcqv56q01-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oPFkESkCdXQrcqv56q01-38" value="MergeBlockRange()对同一个node中的block range进行合并，range 相连的合并为一个range" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
-          <mxGeometry x="1110" y="395" width="190" height="50" as="geometry" />
+        <mxCell id="oPFkESkCdXQrcqv56q01-38" value="MergeBlockRange()对同一个node中的block range进行合并，range 相连的合并为一个range， 对最后接近node EndS的range有特殊处理，对于virtual 的 range，在ends处的直接ignore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oPFkESkCdXQrcqv56q01-1">
+          <mxGeometry x="1110" y="371" width="190" height="98" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
