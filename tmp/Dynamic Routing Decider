@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T11:15:05.909Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="t5j1J0oelAVX_63HQvZr" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-30T11:45:04.968Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="7DcYGNRXzm0s_7JgfAzL" version="16.0.3" type="github">
   <diagram id="jc3OBM19iUJOjxDGYTBY" name="Page-1">
     <mxGraphModel dx="3147" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1273,17 +1273,11 @@
           <mxGeometry x="1093" y="713" width="166.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-99" value="Dynamic Routing Lane Change状态机" style="swimlane;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-1020" y="2923" width="1339.995" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="oPFkESkCdXQrcqv56q01-103" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" target="oPFkESkCdXQrcqv56q01-99">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="580" as="sourcePoint" />
-            <mxPoint x="620" y="30" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="-990" y="2970" width="1340" height="767" as="geometry" />
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-104" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-99">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="690" y="580" as="sourcePoint" />
+            <mxPoint x="690" y="767" as="sourcePoint" />
             <mxPoint x="690" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -1323,11 +1317,11 @@
         <mxCell id="oPFkESkCdXQrcqv56q01-114" value="不为空" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
           <mxGeometry x="204" y="190" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oPFkESkCdXQrcqv56q01-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" source="oPFkESkCdXQrcqv56q01-115" target="oPFkESkCdXQrcqv56q01-139">
+        <mxCell id="oPFkESkCdXQrcqv56q01-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" source="oPFkESkCdXQrcqv56q01-115" target="oPFkESkCdXQrcqv56q01-139">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="925" y="85" />
-              <mxPoint x="925" y="125" />
+              <mxPoint x="846" y="80" />
+              <mxPoint x="983" y="80" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1337,8 +1331,8 @@
         <mxCell id="oPFkESkCdXQrcqv56q01-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" source="oPFkESkCdXQrcqv56q01-112" target="oPFkESkCdXQrcqv56q01-115">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="720" y="220" />
-              <mxPoint x="720" y="85" />
+              <mxPoint x="710" y="220" />
+              <mxPoint x="710" y="85" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1360,6 +1354,9 @@
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-121" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
           <mxGeometry x="400" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" source="oPFkESkCdXQrcqv56q01-122" target="oPFkESkCdXQrcqv56q01-163">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-122" value="Routing Request" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
           <mxGeometry x="461" y="417" width="118" height="25" as="geometry" />
@@ -1385,9 +1382,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="848" y="99" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="800" y="462" />
-              <mxPoint x="800" y="99" />
-              <mxPoint x="788" y="99" />
+              <mxPoint x="788" y="462" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1400,16 +1395,27 @@
         <mxCell id="oPFkESkCdXQrcqv56q01-136" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
           <mxGeometry x="570" y="327" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-171" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" source="oPFkESkCdXQrcqv56q01-139" target="oPFkESkCdXQrcqv56q01-151">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="125" />
+              <mxPoint x="880" y="299" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-139" value="是否存在Dynamic Routing" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
-          <mxGeometry x="971" y="100" width="165.25" height="50" as="geometry" />
+          <mxGeometry x="900" y="100" width="165.25" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-133" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
           <mxGeometry x="330" y="355" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" source="oPFkESkCdXQrcqv56q01-139" target="oPFkESkCdXQrcqv56q01-149">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1053.2857142857142" y="177" as="targetPoint" />
-            <Array as="points" />
+            <mxPoint x="982.2857142857142" y="177" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="983" y="160" />
+              <mxPoint x="983" y="160" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" source="oPFkESkCdXQrcqv56q01-149" target="oPFkESkCdXQrcqv56q01-151">
@@ -1419,19 +1425,85 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-149" value="&lt;span&gt;是否已在Request 类型对应的车道上&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
-          <mxGeometry x="980.44" y="180" width="146.37" height="50" as="geometry" />
+          <mxGeometry x="909.44" y="180" width="146.37" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-150" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
-          <mxGeometry x="1060" y="150" width="30" height="20" as="geometry" />
+          <mxGeometry x="980" y="150" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-151" value="保持前进" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
-          <mxGeometry x="994.63" y="287" width="116.38" height="25" as="geometry" />
+          <mxGeometry x="923.63" y="287" width="116.38" height="25" as="geometry" />
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-153" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
-          <mxGeometry x="1060" y="250" width="30" height="20" as="geometry" />
+          <mxGeometry x="989" y="250" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-174" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" source="oPFkESkCdXQrcqv56q01-154" target="oPFkESkCdXQrcqv56q01-173">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oPFkESkCdXQrcqv56q01-154" value="Lane Change 到对应车道" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
-          <mxGeometry x="1175.99" y="191.5" width="114.01" height="27.5" as="geometry" />
+          <mxGeometry x="1104.99" y="191.5" width="114.01" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-156" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
+          <mxGeometry x="1049" y="175" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" source="oPFkESkCdXQrcqv56q01-157" target="oPFkESkCdXQrcqv56q01-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-179" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" source="oPFkESkCdXQrcqv56q01-157" target="oPFkESkCdXQrcqv56q01-178">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="441" />
+              <mxPoint x="1250" y="441" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-157" value="是否换道成功" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
+          <mxGeometry x="1118" y="417" width="87" height="47.25" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" source="oPFkESkCdXQrcqv56q01-159" target="oPFkESkCdXQrcqv56q01-163">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1105" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-159" value="发送Lane Change Success" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
+          <mxGeometry x="1104.99" y="537" width="111.5" height="34.38" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-162" value="为空" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
+          <mxGeometry x="133" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" source="oPFkESkCdXQrcqv56q01-163" target="oPFkESkCdXQrcqv56q01-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-163" value="Dynamic Routing 状态" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
+          <mxGeometry x="172.5" y="541.38" width="123" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-167" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
+          <mxGeometry x="1146" y="357" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-172" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
+          <mxGeometry x="830" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" source="oPFkESkCdXQrcqv56q01-173" target="oPFkESkCdXQrcqv56q01-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-173" value="是否正在换道" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
+          <mxGeometry x="1118" y="260" width="88" height="47.25" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-176" value="发送In Lane Changing" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
+          <mxGeometry x="924.43" y="516.38" width="116.38" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="oPFkESkCdXQrcqv56q01-99" source="oPFkESkCdXQrcqv56q01-173" target="oPFkESkCdXQrcqv56q01-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-178" value="发送Lane Change Failed" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="oPFkESkCdXQrcqv56q01-99">
+          <mxGeometry x="1180" y="600" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-168" value="置为关闭状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="3500" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPFkESkCdXQrcqv56q01-170" value="置为启用状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="3420" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
